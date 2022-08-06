@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "pg_bitemporal"
+version = "0.1.0"
+description = "Define and interface with bitemporal data models in postgres"
+authors = ["Adam <adamsanghera@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+SQLAlchemy = "^1.4.32"
+psycopg2 = "^2.9.3"
+Django = "^4.0.4"
+
+[tool.poetry.dev-dependencies]
+black = "^22.1.0"
+isort = "^5.10.1"
+pynvim = "^0.4.3"
+pylint = "^2.12.2"
+pydocstyle = "^6.1.1"
+pycodestyle = "^2.8.0"
+pyright = "^1.1.227"
+pre-commit = "^2.20.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
